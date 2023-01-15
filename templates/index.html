@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<!-- banner -->
+<section class="banner_main">
+	<div class="container py-4">
+		<header class="pb-3 mb-4 border-bottom">
+		</header>
+		<div class="p-5 mb-4 bg-light rounded-3" style="position: relative;">
+			<h1 class="display-5 fw-bold">
+				Ecell Task for 1st years
+			</h1>
+			<p class="fs-4">
+				Greetings Folks! This is a static website generated using <a href="https://github.com/Frozen-Flask/Frozen-Flask">Frozen-Flask</a>.
+				<a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">Bootstrap5</a> has been used for styling.<br>
+				Find below the task 1 and 2 of ecell.
+			</p>
+			<hr style="border-top: 2px solid black; position: relative;" class="dropdown-divider" />
+			<div>
+			</div>
+		</div>
+		<div>
+			<hr style="border-top: 2px solid black; position: relative;" class="dropdown-divider" />
+		</div>
+		<div class="row align-items-md-stretch">
+			<div class="col-md-6">
+				<div class="h-100 p-5 text-white bg-dark rounded-3">
+					<h2>Portfolio (Task-1)</h2>
+					<hr style="border-top: 2px solid white; position: relative;" class="dropdown-divider" />
+					<p>
+						1. Portfolio Website (html css js):<br>
+						● Create your own portfolio website using basic html, CSS
+						and JS.<br>
+						● Host your website using Netlify or github pages<br>
+						● Your website will be judged on the basis of interface and
+						functionality.<br>
+					</p>
+					<button onclick="location.href = '/portfolio/';" class="btn btn-outline-light" type="button">
+					Portfolio
+					</button>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="h-100 p-5 bg-light border rounded-3">
+					<h2>Pokedex</h2>
+					<hr style="border-top: 2px solid black; position: relative;" class="dropdown-divider" />
+					<p>
+						Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's
+						content for equal-height.
+					</p>
+					<button class="btn btn-outline-secondary" type="button">
+					Example button
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+{% endblock content %}
