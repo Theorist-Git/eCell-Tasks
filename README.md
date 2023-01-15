@@ -1,5 +1,6 @@
 #  eCell-Tasks
-This git repo hosts the static files for the web-dev task of the eCell NSUT.
+* This git repo hosts the static files for the web-dev task of the eCell NSUT.
+* Website: https://spectacular-dieffenbachia-bd7694.netlify.app/
 
 ## Working
 * Code written in flask is first frozen into static files inside the /build directory using Frozen-Flask.
